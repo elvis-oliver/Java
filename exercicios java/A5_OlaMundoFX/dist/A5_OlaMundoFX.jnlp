@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="A5_OlaMundoFX.jnlp">
+  <information>
+    <title>A5_OlaMundoFX</title>
+    <vendor>ELVIS TEMP 2</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="A5_OlaMundoFX.jar" size="2652" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="A5_OlaMundoFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="olamundofx.OlaMundoFX"  name="A5_OlaMundoFX" />
+  <update check="always"/>
+</jnlp>
