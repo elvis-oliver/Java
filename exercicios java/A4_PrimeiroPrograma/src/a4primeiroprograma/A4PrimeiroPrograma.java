@@ -14,7 +14,7 @@ public class A4PrimeiroPrograma {
 
         Date relogio = new Date();
         System.out.print("A HORA É: ");
-        System.out.println(relogio.toString());
+        System.out.println(relogio.getHours()-1 + ":" + relogio.getMinutes() + ":" + relogio.getSeconds());
 
         Locale idioma = Locale.getDefault();
         System.out.println("IDIOMA: " + idioma.getDisplayLanguage() + " " + idioma.getLanguage());
