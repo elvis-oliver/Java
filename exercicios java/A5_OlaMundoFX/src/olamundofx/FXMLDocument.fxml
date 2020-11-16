@@ -7,12 +7,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="157.0" prefWidth="354.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="olamundofx.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="157.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olamundofx.FXMLDocumentController">
    <children>
       <Button fx:id="btnClick" layoutX="114.0" layoutY="79.0" mnemonicParsing="false" onAction="#Clicou" prefHeight="48.0" prefWidth="128.0" text="CLIQUE AQUI" />
-      <Label fx:id="lblMensagem" layoutX="10.0" layoutY="25.0" text="A Mensagem Vai Aparecer Aqui" textFill="#14d030">
+      <Label fx:id="lblMensagem" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="25.0" prefHeight="27.0" prefWidth="333.0" text="A Mensagem Vai Aparecer Aqui" textFill="#14d030">
          <font>
-            <Font size="24.0" />
+            <Font size="18.0" />
          </font>
       </Label>
    </children>
