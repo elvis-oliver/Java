@@ -8,6 +8,9 @@ public class TelaIdade extends javax.swing.JFrame {
 
     public TelaIdade() {
         initComponents();
+        
+        Calendar ano = Calendar.getInstance();
+        lblAA.setText(Integer.toString(ano.get(Calendar.YEAR)));
     }
 
     @SuppressWarnings("unchecked")
@@ -110,9 +113,6 @@ public class TelaIdade extends javax.swing.JFrame {
 
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
-
-        Calendar ano = Calendar.getInstance();
-        lblAA.setText(Integer.toString(ano.get(Calendar.YEAR)));
 
         int anoN = Integer.parseInt(txtAN.getValue().toString());
         int idade = 2020 - anoN;
