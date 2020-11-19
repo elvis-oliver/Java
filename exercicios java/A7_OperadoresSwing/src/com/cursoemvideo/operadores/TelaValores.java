@@ -100,12 +100,15 @@ public class TelaValores extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDividirActionPerformed
+        
         int numerador = Integer.parseInt(txtNum.getText());
         int denominador = Integer.parseInt(txtDen.getText());
         int resultado = numerador / denominador;
         int resto = numerador % denominador;
+        
         lblResultado.setText(Integer.toString(resultado));
         lblResto.setText(Integer.toString(resto));
+
     }//GEN-LAST:event_btnDividirActionPerformed
 
     public static void main(String args[]) {

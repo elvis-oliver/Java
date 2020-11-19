@@ -179,13 +179,16 @@ public class TelaCalc extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
+        
         panCalc.setVisible(true);
+        
         int numero = Integer.parseInt(txtNum.getValue().toString());
         int rd = numero % 2;
         float ec = (float) Math.pow(numero, 3);
         float rq = (float) Math.sqrt(numero);
         float rc = (float) Math.cbrt(numero);
         float ab = (float) Math.abs(numero);
+        
         lblResto.setText(Integer.toString(rd));
         lblEC.setText(Float.toString(ec));
         lblRQ.setText(Float.toString(rq));
